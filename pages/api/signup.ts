@@ -15,6 +15,8 @@ const signup = async (req: NextApiRequest, res: NextApiResponse) => {
       data: {
         email,
         password: bcrypt.hashSync(password, salt),
+        firstName: "default",
+        lastName: "default",
       },
     });
   } catch (e) {
