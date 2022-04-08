@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/layout";
 import Sidebar from "./sidebar";
 import PlayerBar from "./playerBar";
-
+// redploy
 const PlayerLayout = ({ children }) => {
   return (
     <Box width="100vw" height="100vh">
